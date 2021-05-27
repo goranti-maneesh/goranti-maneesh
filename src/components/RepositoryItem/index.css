@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.main-repository-container {
+  display: flex;
+  justify-content: center;
+}
+
+.repository-item-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75vw;
+}
+
+.repository-item-container {
+  width: 300px;
+  /* height: 400px; */
+  background-color: #f8f8ff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.avatar-logo {
+  width: 100px;
+}
+
+.repo-name {
+  color: #e73959;
+  font-size: 25px;
+}
+
+.public-response-container {
+  display: flex;
+  align-items: center;
+}
+
+.count-logo {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.response-count {
+  font-size: 15px;
+}

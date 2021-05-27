@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.li-element {
+  margin: 20px;
+  list-style-type: none;
+}
+
+.button-ele {
+  border-width: 0px;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.selected-button-element {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
